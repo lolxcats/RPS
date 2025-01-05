@@ -21,7 +21,7 @@ while Game < 5:
     elif Guess == 'paper':
         Guess = 2 
     else:
-        print("fuck off type something better")
+        print("fuck off type something better\n")
         
     Comprand = random.randint(0,2)
 
