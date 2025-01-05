@@ -13,14 +13,16 @@ Game = 0
 while Game < 5: 
     Guess = ''
     print ('Welcome to Rock Paper Scissors! Whats your pick?')
-    Guess = input()
-    if Guess == 'Rock':
+    Guess = input().lower()
+    if Guess == 'rock':
         Guess = 0
-    if Guess == 'Scissors':
+    elif Guess == 'scissors':
         Guess = 1
-    if Guess == 'Paper':
+    elif Guess == 'paper':
         Guess = 2 
-
+    else:
+        print("fuck off type something better")
+        
     Comprand = random.randint(0,2)
 
     if Comprand == 0:
