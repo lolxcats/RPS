@@ -21,7 +21,7 @@ while Game < 5:
     elif Guess == 'paper':
         Guess = 2
     else:
-        Print("type in Rock, Paper, or Scissors")
+        print("type in Rock, Paper, or Scissors")
 
     Comprand = random.randint(0,2)
 
